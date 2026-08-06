@@ -1,0 +1,70 @@
+{
+  "status": "error",
+  "code": 422,
+  "error": {
+    "type": "ValidationError",
+    "message": "The request body contains invalid or missing fields.",
+    "request_id": "req_x9y8z7w6v5u4",
+    "timestamp": "2025-04-10T14:32:18Z",
+    "documentation_url": "https://api.example.com/docs/errors#validation-error",
+    "details": [
+      {
+        "field": "email",
+        "value": "not-an-email",
+        "code": "INVALID_FORMAT",
+        "message": "Must be a valid email address.",
+        "expected": "string matching RFC 5322 email format",
+        "received": "not-an-email"
+      },
+      {
+        "field": "username",
+        "value": "",
+        "code": "REQUIRED_FIELD",
+        "message": "This field is required and cannot be empty.",
+        "expected": "non-empty string (3–30 characters)",
+        "received": ""
+      },
+      {
+        "field": "age",
+        "value": -5,
+        "code": "OUT_OF_RANGE",
+        "message": "Value must be between 0 and 150.",
+        "expected": "integer >= 0 and <= 150",
+        "received": -5
+      },
+      {
+        "field": "role",
+        "value": "superuser",
+        "code": "INVALID_ENUM",
+        "message": "Must be one of the allowed values.",
+        "expected": ["admin", "editor", "viewer"],
+        "received": "superuser"
+      },
+      {
+        "field": "profile.bio",
+        "value": null,
+        "code": "INVALID_TYPE",
+        "message": "Expected a string but received null.",
+        "expected": "string",
+        "received": "null"
+      },
+      {
+        "field": "tags",
+        "value": "developer",
+        "code": "INVALID_TYPE",
+        "message": "Expected an array but received a string.",
+        "expected": "array of strings",
+        "received": "string"
+      }
+    ]
+  },
+  "meta": {
+    "api_version": "v1",
+    "response_time_ms": 8,
+    "rate_limit": {
+      "limit": 1000,
+      "remaining": 846,
+      "reset_at": "2025-04-10T19:00:00Z"
+    }
+  }
+}

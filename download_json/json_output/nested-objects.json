@@ -1,0 +1,21 @@
+{
+    "_credit": "This sample JSON file is provided by Sample-Files.com. Visit us for more sample files and resources.",
+    "company": {
+        "name": "Example Corp",
+        "employees": [
+            {
+                "id": 101,
+                "name": "Alice"
+            },
+            {
+                "id": 102,
+                "name": "Bob"
+            }
+        ],
+        "address": {
+            "street": "123 Main St",
+            "city": "Metropolis",
+            "country": "Fictionland"
+        }
+    }
+}

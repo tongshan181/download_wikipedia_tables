@@ -1,0 +1,21 @@
+{
+  "query": "user data",
+  "timestamp": "2026-07-16T14:52:28.530090",
+  "matching_apis": {},
+  "total_matches": 0,
+  "all_available_topics": [
+    "users",
+    "posts",
+    "comments",
+    "albums",
+    "photos",
+    "todos",
+    "products",
+    "cryptocurrency",
+    "quote",
+    "cat_facts",
+    "dog_facts",
+    "country",
+    "weather"
+  ]
+}

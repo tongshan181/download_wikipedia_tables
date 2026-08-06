@@ -1,0 +1,8 @@
+{
+    "_credit": "This sample JSON file is provided by Sample-Files.com. Visit us for more sample files and resources."
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+    "age": 30,
+    "isActive": true
+    // Missing comma and improper comment
+}

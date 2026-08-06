@@ -1,0 +1,7 @@
+{
+    "_credit": "This sample JSON file is provided by Sample-Files.com. Visit us for more sample files and resources.",
+    "name": "John Doe",
+    "age": 30,
+    "email": "john.doe@example.com",
+    "isActive": true
+}
